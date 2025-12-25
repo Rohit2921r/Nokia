@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nothing Dot Hub // v6.4</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Space+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <style>
-        :root {
-            --bg: #ffffff; --text: #000; --glass: rgba(245, 245, 245, 0.4); --dot: #d1d1d1; --accent: #ff2d2d; --border: rgba(0,0,0,0.08);
-        }
-        [data-theme="dark"] {
-            --bg: #000; --text: #fff; --glass: rgba(15, 15, 15, 0.4); --dot: #222; --accent: #ff2d2d; --border: rgba(255,255,255,0.1);
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1); }
         body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
 
         body::before {
